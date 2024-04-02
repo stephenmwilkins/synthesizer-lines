@@ -1,0 +1,47 @@
+table SED "4.sed" 
+element abundance Helium -1.0736058403206425 no grains
+element abundance Lithium -10.340395929494452 no grains
+element abundance Beryllium -11.484395929494452 no grains
+element abundance Boron -9.997395929494452 no grains
+element abundance Carbon -5.136068061277651 no grains
+element abundance Nitrogen -5.77945940682748 no grains
+element abundance Oxygen -4.1713959294944525 no grains
+element abundance Fluorine -8.364395929494451 no grains
+element abundance Neon -4.714395929494453 no grains
+element abundance Sodium -8.617895929494452 no grains
+element abundance Magnesium -6.014395929494452 no grains
+element abundance Aluminium -7.8603959294944525 no grains
+element abundance Silicon -6.0909959294944525 no grains
+element abundance Phosphorus -7.573895929494452 no grains
+element abundance Sulphur -5.959195929494451 no grains
+element abundance Chlorine -7.727995929494453 no grains
+element abundance Argon -6.795395929494452 no grains
+element abundance Potassium -8.689895929494451 no grains
+element abundance Calcium -9.163395929494452 no grains
+element abundance Scandium -9.644395929494452 no grains
+element abundance Titanium -9.977895929494453 no grains
+element abundance Vanadium -8.914395929494452 no grains
+element abundance Chromium -8.737895929494451 no grains
+element abundance Manganese -8.717195929494453 no grains
+element abundance Iron -6.871795929494453 no grains
+element abundance Cobalt -7.874395929494453 no grains
+element abundance Nickel -8.28539592949445 no grains
+element abundance Copper -9.575295929494454 no grains
+element abundance Zinc -8.487795929494453 no grains
+grains Orion graphite 0.01355822091795703 
+grains Orion silicate 0.14886514628820627 
+grains PAH 0.0029670778313146697
+Q(H) = 48.22250264611322
+radius -2.0 log parsecs
+sphere
+cosmic rays, background
+hden 3.0 log constant density
+set temperature floor 100 linear
+stop temperature 500K
+stop efrac -2
+set continuum resolution 1.0
+save overview  "4.ovr" last
+save last abundances "4.abundances"
+save last continuum "4.cont" units Angstroms no clobber
+save line list column absolute last units angstroms                   "4.elin" "linelist.dat"
+save last lines, array "4.lines" units Angstroms no clobber

@@ -1,0 +1,47 @@
+table SED "8.sed" 
+element abundance Helium -1.0458209372304248 no grains
+element abundance Lithium -9.752847175122985 no grains
+element abundance Beryllium -10.896847175122986 no grains
+element abundance Boron -9.409847175122986 no grains
+element abundance Carbon -4.259307013008057 no grains
+element abundance Nitrogen -4.860801642608887 no grains
+element abundance Oxygen -3.583847175122986 no grains
+element abundance Fluorine -7.776847175122985 no grains
+element abundance Neon -4.126847175122986 no grains
+element abundance Sodium -8.030347175122985 no grains
+element abundance Magnesium -5.426847175122985 no grains
+element abundance Aluminium -7.272847175122986 no grains
+element abundance Silicon -5.503447175122986 no grains
+element abundance Phosphorus -6.986347175122986 no grains
+element abundance Sulphur -5.371647175122985 no grains
+element abundance Chlorine -7.140447175122986 no grains
+element abundance Argon -6.207847175122986 no grains
+element abundance Potassium -8.102347175122985 no grains
+element abundance Calcium -8.575847175122986 no grains
+element abundance Scandium -9.056847175122986 no grains
+element abundance Titanium -9.390347175122987 no grains
+element abundance Vanadium -8.326847175122985 no grains
+element abundance Chromium -8.150347175122985 no grains
+element abundance Manganese -8.129647175122987 no grains
+element abundance Iron -6.284247175122986 no grains
+element abundance Cobalt -7.286847175122986 no grains
+element abundance Nickel -7.697847175122985 no grains
+element abundance Copper -8.987747175122987 no grains
+element abundance Zinc -7.900247175122986 no grains
+grains Orion graphite 0.10208542808814709 
+grains Orion silicate 0.575892977733988 
+grains PAH 0.022340350729898702
+Q(H) = 48.22250264611322
+radius -2.0 log parsecs
+sphere
+cosmic rays, background
+hden 3.0 log constant density
+set temperature floor 100 linear
+stop temperature 500K
+stop efrac -2
+set continuum resolution 1.0
+save overview  "8.ovr" last
+save last abundances "8.abundances"
+save last continuum "8.cont" units Angstroms no clobber
+save line list column absolute last units angstroms                   "8.elin" "linelist.dat"
+save last lines, array "8.lines" units Angstroms no clobber

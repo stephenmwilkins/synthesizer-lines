@@ -1,0 +1,28 @@
+# Roberts-Borsani
+
+C III]1907,1909
+[O II]3727,3729
+[Ne III]3869
+[Ne III]3968
+Hδ4102 Hγ4341+[OIII]4364 Hβ4863
+[O III]4960
+[O III]5008 Hα6564+[N II]6585
+
+# Calabro https://arxiv.org/pdf/2403.12683.pdf
+
+# Chisholm 
+
+[Ne v] 3426.8 Å
+[O ii] 3727.1 Å
+[O ii] 3729.9 Å
+H9 3836.5 Å
+[ Ne iii ] 3869.9Å
+H8 3890.2+He i 3889.8 Å [ Ne iii ] 3968.6 Å
+H7 3971.2 Å
+H 𝛿 4102.9 Å He ii 4687.0 Å
+[ O iii ] 4960.3 Å [ O iii ] 5008.2 Å [O i] 6302.0 Å H 𝛼 6564.6 Å [N ii] 6585.3 Å [S ii] 6718.3 Å [S ii] 6732.7 Å
+
+
+# Feltre
+
+He 2 1640.41A

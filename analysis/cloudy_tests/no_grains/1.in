@@ -1,0 +1,44 @@
+table SED "1.sed" 
+element abundance Helium -1.082941110961035
+element abundance Lithium -13.995309106438805
+element abundance Beryllium -13.665309106438805
+element abundance Boron -12.345309106438807
+element abundance Carbon -7.425064893274037
+element abundance Nitrogen -8.16151986220474
+element abundance Oxygen -6.355309106438806
+element abundance Fluorine -10.485309106438805
+element abundance Neon -7.115309106438807
+element abundance Sodium -8.115309106438806
+element abundance Magnesium -7.445309106438807
+element abundance Aluminium -8.595309106438805
+element abundance Silicon -7.535309106438807
+element abundance Phosphorus -9.635309106438806
+element abundance Sulphur -7.925309106438806
+element abundance Chlorine -9.545309106438806
+element abundance Argon -8.645309106438805
+element abundance Potassium -10.015309106438805
+element abundance Calcium -8.705309106438806
+element abundance Scandium -11.895309106438805
+element abundance Titanium -10.095309106438805
+element abundance Vanadium -11.115309106438806
+element abundance Chromium -9.405309106438805
+element abundance Manganese -9.615309106438806
+element abundance Iron -7.545309106438807
+element abundance Cobalt -10.055309106438806
+element abundance Nickel -8.825309106438805
+element abundance Copper -10.855309106438805
+element abundance Zinc -10.485309106438805
+metals deplete Jenkins 2009
+Q(H) = 49.21900016397249
+radius -2.0 log parsecs
+sphere
+cosmic rays, background
+hden 2.0 log constant density
+stop efrac -2
+set continuum resolution 1.0
+save overview  "1.ovr" last
+save last abundances "1.abundances"
+save last continuum intrinsic "1.cont" units Angstroms no clobber
+save line list column absolute last units angstroms "1.elin" "linelist.dat"
+save line list emergent column absolute last units angstroms "1.eelin" "linelist.dat"
+save last lines, array "1.lines" units Angstroms no clobber
